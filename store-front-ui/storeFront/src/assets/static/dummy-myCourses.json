@@ -1,0 +1,22 @@
+[
+    {
+        "id": 6146,
+        "name": "Java Specialist ",
+        "type": "LearningProgram"
+    },
+    {
+        "id": 6148,
+        "name": "Prime ",
+        "type": "LearningProgram"
+    },
+    {
+        "id": 504068,
+        "name": "Learning Management System",
+        "type": "Course"
+    },
+    {
+        "id": 505514,
+        "name": "Prime-overview",
+        "type": "Course"
+    }
+]

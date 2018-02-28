@@ -1,0 +1,153 @@
+<!doctype html>
+<html ng-app="storeFront">
+  <head>
+    <meta charset="utf-8">
+    <title>STOREFRONT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick-theme.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body ng-controller="MainController" class="default-theme storefront-body">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="navbar-wrapper">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header" ng-click="setToNormal()">
+            <a class="navbar-brand siteName">STOREFRONT</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="nav-dropdown">
+               <div class="dropdown">
+                 <button ng-click="showList()" class="btn navBtnCustm dropdown-toggle" type="button" data-toggle="dropdown">
+                   <i class="fa fa-bars fa-lg icon-color" aria-hidden="true"></i>CATALOGS</button>
+                   <ul class="dropdown-menu libUl catalogLib">
+                      <li class="dropdown-submenu progListing" id={{catalog.catalogId}} ng-repeat="catalog in getAllCatalogs">
+                        <a class="catalogLink" tabindex="-1" ui-sref="catalogDetails({id: catalog.catalogId})">{{catalog.catalogName}}</a>
+                          <ul class="dropdown-menu libUl catalogLib" ng-if="catalog.courses.length">
+                            <li id={{course.courseId}} class="courseList" ng-repeat="course in catalog.courses track by $index">
+                              <a ui-sref="details({id: course.courseId})">{{course.courseName}}</a>
+                            </li>
+                            <!-- <li ng-if="!catalog.courses.length" id={{course.courseId}} class="courseList">
+                              <a>No courses yet</a>
+                            </li> -->
+                          </ul>
+                      </li>
+                   </ul>
+               </div>
+             </li>
+            <li class="search"><a>SEARCH</a></li>
+          </ul>
+          <ul class="nav navbar-nav nav-custom" ng-if="statusCode!=200">
+            <li ui-sref="storeFrontLogin">
+              <div class="dropdown">
+                <button class="dropdown-toggle userbutton"><a><i class="fa fa-user-circle-o fa-2x"></i></a></button>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav nav-custom" ng-if="statusCode==200">
+            <li class="search">
+              <a ui-sref="myCourses">MY COURSES</a>
+            </li>
+            <li class="search navDivider">|</li>
+            <li class="search"><a>NOTIFICATIONS</a></li>
+            <li class="search navDivider">|</li>
+            <li class="search"><a>PROFILE</a></li>
+            <li class="search navDivider">|</li>
+            <li class="nav-dropdown nav-drop-icon">
+              <div class="dropdown">
+                 <button class="settingButton btn dropdown-toggle" data-toggle="dropdown" ng-click="userList()"><i class="fa fa-cog fa-2x settingIcon"></i></button>
+                 <ul class="dropdown-menu libUl settingLib roleDropDown">
+                   <li class="dropdown-submenu progListing">
+                      <input type="radio" value="learner" name="learner" class="radioBtnSettng" ng-model="selectedRadio" ng-click="switchRoles(selectedRadio)"/>
+                      <label>Learner</label>
+                   </li>
+                   <li class="dropdown-submenu progListing">
+                      <input type="radio" value="admin" name="role" class="radioBtnSettng" ng-model="selectedRadio" ng-click="switchRoles(selectedRadio)" />
+                      <label>Admin</label>
+                   </li>
+                 </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div ui-view></div>
+
+    <div class="container-fluid semiFooter" ng-init="showList()">
+      <div class="col-md-12 coursesContent">
+        <div class="col-md-6 course-div-left">
+          <h5 class="courses-header">Categories</h5>
+          <ul class="list-group course-list">
+            <li class="list-group-item linkableTitle" ng-repeat="catalog in getAllCatalogs" ui-sref="catalogDetails({id: catalog.catalogId})">{{catalog.catalogName}}</li>
+          </ul>
+        </div>
+        <div class="col-md-6 course-div-right right-course-list">
+          <h5 class="courses-header">Learning Programs</h5>
+          <ul class="list-group course-list">
+            <li class="list-group-item linkableTitle" ng-repeat="lp in getLPDetails" ui-sref="learningProgDetails({id: lp.learningProgramId})">{{lp.learningProgramName}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-wrapper">
+          <div class="container-fluid storeFontFooter">
+            <ul class="nav navbar-nav footerNavCustom">
+              <li><i class="fa fa-globe fa-lg" aria-hidden="true"></i>Change Region</li>
+              <li>License Terms</li>
+              <li>Learn and Support</li>
+              <li>Blogs</li>
+              <li>Company</li>
+            </ul>
+            <ul class="nav navbar-nav nav-custom footerCustom">
+              <li>Copyright © 2017 Happiest Minds Technology. All rights reserved.</li>
+              <li>Privacy </li>
+              <li>/ Terms of Use </li>
+              <li>/ Cookies</li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script> -->
+    <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script src="../bower_components/angular-slick/dist/slick.min.js"></script>
+  </body>
+</html>

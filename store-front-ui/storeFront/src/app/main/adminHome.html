@@ -1,0 +1,210 @@
+<div class="mainHome" ng-init="myCoursesByAuthor()">
+  <div class="container-fluid courses-container">
+      <div class="custom-courses">
+          <div class="row">
+              <form name="configuringForm" ng-submit="published(course)">
+                <div class="col-md-12">
+                  <uib-tabset type="pills" class="nav navbar-nav detailViewNav mainNav">
+                      <uib-tab heading="My Courses">
+                          <div class="row courses-row" ng-repeat="course in getMyCourses track by $index">
+                              <div class="col-md-12 content-divider"></div>
+                              <div class="col-md-12">
+                                  <div class="col-md-3">
+                                      <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                                  </div>
+                                  <div class="col-md-7 courseContent-details">
+                                      <div class="col-md-12 content-courses" id={{course.courseId}} name="courseId" ng-init="course.courseId">
+                                          <h5 class="linkableTitle titleStyle" ui-sref="adminDetails({id: course.courseId})" name="courseName" ng-model="course.courseName">{{course.courseName}}</h5>
+                                          <p class="content-custom" name="courseDescription" ng-model="course.courseDescription">{{course.courseDescription}}</p>
+                                      </div>
+                                      <div class="col-md-12 content-courses">
+                                          <div class="col-md-6 content-courses">
+                                              <div class="col-md-3 content-courses authorImage">
+                                                <div class="imageIcon">
+                                                  <img ng-if="!course.author.avatarUrl" src="assets/images/dummy-user-image.png" alt="userImage image">
+                                                  <img ng-if="course.author.avatarUrl" ng-src="{{course.author.avatarUrl}}" alt="userImage image">
+                                                </div>
+                                              </div>
+                                              <div class="col-md-9 content-courses">
+                                                  <p class="userHeader">Instructor</p>
+                                                  <p class="userName">{{course.author.userName}}</p>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                              <div class="col-md-4 paymentType">
+                                                <input type="radio" id="paid" value="paid" name="payment" ng-model="course.selected" ng-click="paymentSelection(course)" />
+                                                <label>Paid</label>
+                                              </div>
+                                              <div class="col-md-4 paymentType">
+                                                <input type="radio" id="trial" value="trial" name="trial" ng-model="course.selected" ng-click="paymentSelection(course)" />
+                                                <label>Trial</label>
+                                              </div>
+                                              <div class="col-md-4 paymentType dropdown">
+                                                <input type="radio" id="free" value="free" name="free" ng-model="course.selected" ng-click="paymentSelection(course)"/>
+                                                <label>Free</label>
+                                              </div>
+                                              <div class="settingBox col-md-12 form-group" ng-show="course.selected == 'paid'" id="paidDiv">
+                                                <label>Set Price</label>
+                                                <input class="settingLi" type="text" name="price" value="" ng-model="course.price">
+                                                <input class="settingLi" type="button" value="Save" ng-click="saveConfigurationPaid(course)">
+                                              </div>
+                                              <div class="settingBox col-md-12 form-group" ng-show="course.selected == 'trial'" id="trialdDiv">
+                                                <label>Trial Days</label> <input class="settingLi" type="text" name="days" value="" ng-model="course.days">
+                                                <label>Set Price After Trial</label> <input class="settingLi" type="text" name="price" value="" ng-model="course.price">
+                                                <input type="button" value="Save" ng-click="saveConfigurationTrial(course)">
+                                              </div>
+                                          </div>
+                                          <input class="publishBtn" type="submit" value="Publish" ng-if="!course.coursePublish.isPublished" ng-submit="published(course)">
+                                          <input class="publishBtn publishBtnDisable" type="button" value="Published" ng-if="course.coursePublish.isPublished" ng-disabled="course.isPublished">
+                                      </div>
+                                  </div>
+                                  <div class="col-md-2">
+                                      <div class="col-md-12">
+                                          <div class="mainTime" title="Duration">
+                                              <!-- <img src="assets/images/timeIcon.png" alt="userImage image"> -->
+                                              <span class="detailScheduleSpan"><i class="fa fa-hourglass-o fa-fw " aria-hidden="true"></i></span>
+                                              <span class="detailRating"> --- </span>
+                                          </div>
+                                          <div class="mainTime" title="Level">
+                                              <!-- <img src="assets/images/levelIcon.png" alt="userImage image"> -->
+                                              <span class="detailScheduleSpan"><i class="fa fa-align-left fa-fw fa-rotate-270" aria-hidden="true"></i></span>
+                                              <span class="detailRating"> --- </span>
+                                          </div>
+                                          <div class="mainTime" title="Price">
+                                              <!-- <img src="assets/images/priceIcon.png" alt="userImage image"> -->
+                                              <span class="detailScheduleSpan"><i class="fa fa-usd fa-fw" aria-hidden="true"></i></span>
+                                              <span class="detailRating" ng-if="course.coursePublish.amount">{{course.coursePublish.amount}}</span>
+                                              <span class="detailRating" ng-if="!course.coursePublish.amount">---</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </uib-tab>
+                      <!-- <uib-tab heading="My Courses">
+                        <div class="row courses-row" ng-repeat="mycourse in getMyCourses track by $index">
+                            <div class="col-md-12">
+                                <div class="col-md-3">
+                                    <img src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                                </div>
+                                <div class="col-md-7 courseContent-details">
+                                    <div class="col-md-12 content-courses">
+                                        <h5 class="linkableTitle titleStyle" ui-sref="details({id: mycourse.id})">{{mycourse.name}}</h5>
+                                        <p class="content-custom">Type: {{mycourse.type}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 content-divider"></div>
+                        </div>
+                      </uib-tab> -->
+                      <uib-tab class="pull-right">
+                          <uib-tab-heading>
+                              <a><i class="fa fa-th-list fa-fw" aria-hidden="true"></i></a>
+                          </uib-tab-heading>
+                      </uib-tab>
+                      <uib-tab class="pull-right">
+                          <uib-tab-heading>
+                              <a><i class="fa fa-th-large fa-fw" aria-hidden="true"></i></a>
+                          </uib-tab-heading>
+                      </uib-tab>
+                      <uib-tab class="pull-right">
+                          <uib-tab-heading>
+                              <a><i class="fa fa-align-left fa-fw" aria-hidden="true"></i></a>
+                          </uib-tab-heading>
+                      </uib-tab>
+                      <uib-tab class="pull-right">
+                          <uib-tab-heading>
+                              <a><i class="fa fa-align-right fa-fw" aria-hidden="true"></i></a>
+                          </uib-tab-heading>
+                      </uib-tab>
+                  </uib-tabset>
+              </div>
+              </form>
+          </div>
+      </div>
+  </div>
+
+  <!-- <div class="container-fluid reviews-custom" ng-if="selectedRadio==learner">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="col-lg-12 learn-col">
+                  <p>MEET OUR LEARNERS</p>
+              </div>
+              <div class="col-lg-12 learn-col2">
+                  <p class="sub-header">Keep Learning. Keep Gaining. Keep Inspiring.</p>
+              </div>
+              <div class="slide-divider"></div>
+          </div>
+          <div class="col-md-12 slide-images">
+              <div class="col-md-2 arrow-width review-arrow-left">
+                  <img src="assets/images/left-arrow-end.png" alt="left-arrow image">
+              </div>
+              <div class="col-md-8">
+                  <div class="col-md-3 revieverImage">
+                      <img src="assets/images/userImage.png" alt="courseImage image">
+                  </div>
+                  <div class="col-md-9">
+                      <div class="review-slides">
+                          <p class="review-text">"When using tooltips or popovers on elements within an .input-group,
+                            you'll have to specify the option container: 'body' to avoid unwanted side effects ..."</p>
+                      </div>
+                      <div>
+                          <p class="reviewerName">Amanda Bellucci</p>
+                          <p class="reviewerDeg">LEAD DATA SCIENTIST</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 arrow-width review-arrow-right">
+                  <img src="assets/images/right-arrow-end.png" alt="right-arrow image">
+              </div>
+          </div>
+          <div class="dotted-slide">...</div>
+      </div>
+  </div>
+
+  <div class="container-fluid" ng-if="selectedRadio==learner">
+      <div class="row price-row">
+          <div class="col-lg-12">
+              <div class="col-lg-12 learn-col">
+                  <p>SUBSCRIPTION PLANS</p>
+              </div>
+              <div class="col-lg-12 learn-col2">
+                  <p class="sub-header">We have plans to meet your learning needs.</p>
+              </div>
+              <div class="slide-divider"></div>
+          </div>
+          <div class="col=md-12">
+              <div class="col-md-4 first-price-box">
+                  <div class="col-md-12 price-text paymntSection">
+                      <h5>3 paid courses a month</h5>
+                  </div>
+                  <div class="col-md-12 price-text priceCustom">
+                      <img src="assets/images/price1.png" alt="price image">
+                  </div>
+              </div>
+              <div class="col-md-4 price-box">
+                  <div class="price-header">
+                      <span>FIRST MONTH FREE</span>
+                  </div>
+                  <div class="col-md-12 price-text activePaymt">
+                      <h5>All courses free for 6 months.</h5>
+                  </div>
+                  <div class="col-md-12 price-text priceCustom">
+                      <img src="assets/images/price2.png" alt="price image">
+                  </div>
+                  <div class="paymtOptBtn">
+                      <button type="button" class="btn btn-primary custom-btn">View all plans</button>
+                  </div>
+              </div>
+              <div class="col-md-4 last-price-box">
+                  <div class="col-md-12 price-text paymntSection">
+                      <h5>All courses free for 6 months.</h5>
+                  </div>
+                  <div class="col-md-12 price-text priceCustom">
+                      <img src="assets/images/price2.png" alt="price image">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div> -->
+</div>

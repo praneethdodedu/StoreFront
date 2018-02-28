@@ -1,0 +1,1 @@
+This application is front-end for store-front application.

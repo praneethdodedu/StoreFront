@@ -1,0 +1,67 @@
+spring:
+  application:
+    name: store-front-gateway-server
+  session:
+    store-type: redis
+info:
+  component: Edge Server
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+zuul:
+  host:
+    connect-timeout-millis: 500000
+    socket-timeout-millis: 100000
+  routes:
+    user:
+      path: /user/**
+      serviceId: user-service
+      sensitive-headers: null
+    course:
+      path: /course/**
+      serviceId: course-service
+      sensitive-headers: null
+user-service:
+  ribbon:
+    ReadTimeout: 600000
+    ConnectTimeout: 600000
+course-service:
+  ribbon:
+    ReadTimeout: 600000
+    ConnectTimeout: 600000
+ribbon:
+  ReadTimeout: 200000
+  ConnectTimeout: 200000
+  eureka:
+    enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: false
+server:
+  port: 8765
+  session:
+    timeout: 40000
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG
+security:
+  oauth2:
+    client:
+      clientId: f789c417-5f7d-4d1d-b918-23acab3d9d18
+      clientSecret: 2f76e5ca-fed9-411b-ac8c-118c58fa4047
+      accessTokenUri: https://captivateprime.adobe.com/oauth/token
+      userAuthorizationUri: https://captivateprime.adobe.com/oauth/o/authorize
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      scope: learner:read
+    resource:
+      userInfoUri: http://localhost:8765/
+  sessions: always

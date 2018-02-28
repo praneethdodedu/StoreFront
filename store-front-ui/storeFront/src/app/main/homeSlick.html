@@ -1,0 +1,38 @@
+<div class="container-fluid learning-view" ng-if="selectedRadio==learner">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-12 learn-col">
+                <p>LEARNING PROGRAMS</p>
+            </div>
+            <div class="col-lg-12 learn-col2">
+                <p class="sub-header">Follow your passion. Learn from out curated Courses or Catalogs.</p>
+            </div>
+            <div class="slide-divider">
+            </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-11 slickDiv">
+            <div class="col-md-10 slide-images">
+              <slick dots=true infinite="true" slides-to-show="4" slides-to-scroll="4" >
+                <div class="col-md-2 col-2-override myCourseTab multiple-items" ng-repeat="lp in getLPDetails track by $index" ui-sref="learningProgDetails({id: lp.learningProgramId})">
+                    <img class="learningImage" src="assets/images/courseImg3.jpg" alt="Generic placeholder image">
+                    <h5 class="myCourseType">{{lp.learningProgramName}}</h5>
+                    <!-- <h5 class="myCourseNm">{{mycourse.name}}</h5> -->
+                </div>
+              </slick>
+                <!-- <div class="col-md-2 arrow-width arrow-override col-2-override">
+                    <img class="" src="assets/images/left-arrow-end.png" alt="left-arrow image">
+                </div>
+                <div class="col-md-2 col-2-override myCourseTab multiple-items" ng-repeat="mycourse in getMyCourses track by $index" ng-click="myCourseUrl(mycourse)">
+                    <img class="learningImage" src="assets/images/courseImg3.jpg" alt="Generic placeholder image">
+                    <h5 class="myCourseType">{{mycourse.type}}</h5>
+                    <h5 class="myCourseNm">{{mycourse.name}}</h5>
+                </div>
+                <div class="col-md-2 arrow-width col-2-override">
+                    <img class="" src="assets/images/right-arrow-end.png" alt="right-arrow-end image">
+                </div> -->
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

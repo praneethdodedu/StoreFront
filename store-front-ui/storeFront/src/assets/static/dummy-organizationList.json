@@ -1,0 +1,18 @@
+[
+    {
+        "organizationId": 1,
+        "organizationName": "Happiest Minds"    
+    },
+	{
+        "organizationId": 2,
+        "organizationName": "MindTree"    
+    },
+	{
+        "organizationId": 3,
+        "organizationName": "Adobe Pvt Ltd"    
+    },
+	{
+        "organizationId": 4,
+        "organizationName": "Accenture"    
+    }
+]

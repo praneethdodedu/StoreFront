@@ -1,0 +1,180 @@
+<div ng-init="initCatalogDetails()">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+     <div class="item active carouselImage">
+       <img src="assets/images/bannerImage7.jpeg" alt="Los Angeles" style="width:100%;" class="bannerImag">
+       <div class="carousel-caption">
+         <h3>{{getCatalogByID.catalogName}}</h3>
+         <p>{{getCatalogByID.description}}</p>
+         <div>
+           <button type="button" class="btn btn-default carouselBtn">Enroll for $--</button>
+           <span class="carouselIcon" title="Bookmark">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span>
+           <!-- <span class="carouselIcon">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span> -->
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="container-fluid detail-container">
+   <div class="row">
+     <div class="col-md-12">
+       <div class="col-md-9 detailViewTabset">
+         <uib-tabset type="pills" class="nav navbar-nav detailViewNav detailsNav">
+            <uib-tab heading="Overview">{{getCatalogByID.description || "no data available"}}</uib-tab>
+            <uib-tab heading="Courses" classes="btn-sm">
+              <div>
+                <!-- <div class="moduleSection">List of Courses:</div> -->
+                <div class="moduleViewStyle" ng-show="!getCourses.length">
+                  <p class="moduleTitle linkableTitle">No Course available[{{getCourses.length}}]</p>
+                </div>
+                <div class="moduleViewStyle" ng-repeat="course in getCourses">
+                  <p class="moduleTitle linkableTitle" ui-sref="details({id: course.courseId})">{{course.courseName}}</p>
+                  <p>{{course.courseDescription}}</p>
+                </div>
+              </div>
+            </uib-tab>
+          </uib-tabset>
+       </div>
+
+       <div class="col-md-3 detailViewRatings">
+         <div class="col-md-12 detailScheduleLayout">
+            <div class="detailTime" title="Duration">
+              <!-- <img src="assets/images/timeIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-hourglass-o fa-fw " aria-hidden="true"></i></span>
+              <span class="detailRating"> --- </span>
+            </div>
+            <div class="detailTime" title="Level">
+              <!-- <img src="assets/images/levelIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-align-left fa-fw fa-rotate-270" aria-hidden="true"></i></span>
+              <span class="detailRating"> --- </span>
+            </div>
+            <div class="detailTime" title="Price">
+              <!-- <img src="assets/images/priceIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-usd fa-fw" aria-hidden="true"></i></span>
+              <span class="detailRating"> --</span>
+            </div>
+         </div>
+         <div class="col-md-12 InstructorDetailView">
+           <div class="courseAuthorStyle">Instructor</div>
+           <div class="row">
+             <div class="col-md-4 authorImage">
+               <div class="imageIcon">
+                 <img src="assets/images/dummy-user-image.png" alt="userImage image">
+               </div>
+             </div>
+             <div class="col-md-8 authorName">
+               <span class="userName">Jozeph Forakis</span>
+             </div>
+             <div class="col-md-11 authorDesc">
+               <p>The AngularJS framework works by first reading the HTML page,
+                 which has embedded into it additional custom tag attributes.
+               </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-12 RatingDetailView">
+           <div class="avgRateHeader">Average Rating</div>
+           <div class="row ratings">
+             <div class="col-md-4 ratingNumber">
+               <span>_._</span>
+             </div>
+             <div class="col-md-4 ratingStar">
+               <span class="rating-star">
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+               </span>
+             </div>
+             <div class="col-md-4 ratingCount">
+               <span>(0)</span>
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <!-- <div class="container-fluid learning-view">
+    <div class="row">
+      <div>
+        <h4 class="otherCourse">RELATED COURSES</h4>
+        <div class="col-md-12 slide-images">
+          <div class="col-md-2 arrow-width rating-arrow-left">
+            <img class="" src="assets/images/left-arrow-end.png" alt="left-arrow image">
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 arrow-width rating-arrow-right">
+            <img class="" src="assets/images/right-arrow-end.png" alt="right-arrow image">
+          </div>
+        </div>
+      </div>
+      <div class="dotted-slide">...</div>
+    </div>
+  </div> -->
+
+</div>

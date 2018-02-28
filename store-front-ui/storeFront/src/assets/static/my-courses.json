@@ -1,0 +1,32 @@
+[
+    {
+        "id": 485393,
+        "name": "Find Your Customer (Sample Course)",
+        "type": "Course"
+    },
+    {
+        "id": 494574,
+        "name": "Test",
+        "type": "Course"
+    },
+    {
+        "id": 494932,
+        "name": "Test2",
+        "type": "Course"
+    },
+    {
+        "id": 496891,
+        "name": "Test4",
+        "type": "Course"
+    },
+    {
+        "id": 504068,
+        "name": "Learning Management System",
+        "type": "Course"
+    },
+    {
+        "id": 505514,
+        "name": "Prime-overview",
+        "type": "Course"
+    }
+]

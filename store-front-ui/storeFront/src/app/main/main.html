@@ -1,0 +1,51 @@
+<div ng-init="allList()">
+  <div id="myCarousel" class="carousel slide carouselOverRide" data-ride="carousel">
+      <!-- Indicators -->
+      <!-- <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+         </ol> -->
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="item active carouselImage">
+              <img src="assets/images/bannerImage1.jfif" alt="Los Angeles" style="width:100%;" class="bannerImag">
+              <div class="carousel-caption search-carousel-caption">
+                  <h2>Choose from our Courses /Catalogs</h2>
+                  <div class="input-group searchBox">
+                    <span class="input-group-btn">
+                      <select class="btn searchCtgryBtn" ng-model="selectedOption">
+                        <option value="course" ng-selected="selectedOption == course">Courses</option>
+                        <option value="catalog" ng-selected="selectedOption == catalog">Catalogs</option>
+                      </select>
+                    </span>
+                      <input type="text" class="form-control seacrhBox-input" placeholder="Learn something new today" ng-model="searchText" ng-enter="changeOption()">
+                      <div class="input-group-btn" ng-click="changeOption()">
+                          <button class="btn btn-default search-button" type="submit"><i class="fa fa-search fa-lg fa-rotate-90"></i></button>
+                      </div>
+                  </div>
+                  <!-- <span>3000 Courses | 324 Learning Programs | 34567 Learnings</span> -->
+              </div>
+          </div>
+          <!-- <div class="item carouselImage">
+              <img src="assets/images/bannerImage.jpg" alt="Chicago" style="width:100%;" class="bannerImag">
+              <div class="carousel-caption search-carousel-caption">
+                  <h2>Choose from our Courses /Catalogs</h2>
+                  <div class="input-group searchBox">
+                    <span class="input-group-btn">
+                      <select class="btn searchCtgryBtn" ng-model="selectedOption">
+                        <option value="course" ng-selected="selectedOption == course">Courses</option>
+                        <option value="catalog" ng-selected="selectedOption == catalog">Catalogs</option>
+                      </select>
+                    </span>
+                      <input type="text" class="form-control seacrhBox-input" placeholder="Learn something new today" ng-model="searchText" ng-enter="changeOption()">
+                      <div class="input-group-btn" ng-click="changeOption()">
+                          <button class="btn btn-default search-button" type="submit"><i class="fa fa-search fa-lg fa-rotate-90"></i></button>
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+      </div>
+  </div>
+  <div ng-include="'app/main/home.html'" ng-show="vissibleContent"></div>
+  <div ng-include="'app/main/search.html'" ng-show="!vissibleContent"></div>
+</div>

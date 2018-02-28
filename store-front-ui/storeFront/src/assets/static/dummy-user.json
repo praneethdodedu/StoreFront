@@ -1,0 +1,175 @@
+[
+    {
+        "userId": 1310769,
+        "userName": "Chandra Ch",
+        "email": "chandrasekhar003@gmail.com",
+        "type": "user",
+        "profile": "admin",
+        "state": "ACTIVE",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+        "manager": null,
+        "roles": [
+            "Admin",
+            "Author",
+            "Manager",
+            "Integration Admin",
+            "Learner"
+        ]
+    },
+    {
+        "userId": 1315720,
+        "userName": "Deepthi",
+        "email": "deepthi.vt@happiestminds.com",
+        "type": "user",
+        "profile": "employee",
+        "state": "ACTIVE",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImJjMTVjNDY4LTY2NDctNDhjZi05YjViLWFlZDZlODhmNDBmNSIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.c7oCNPJx4El9BNekkvQrCBl4SeqBsB5pmYnQ4G0HYlE",
+        "manager": {
+            "userId": 1310769,
+            "userName": "Chandra Ch",
+            "email": "chandrasekhar003@gmail.com",
+            "type": "user",
+            "profile": "admin",
+            "state": "ACTIVE",
+            "userType": "Internal",
+            "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+            "manager": null,
+            "roles": [
+                "Admin",
+                "Author",
+                "Manager",
+                "Integration Admin",
+                "Learner"
+            ]
+        },
+        "roles": [
+            "Learner"
+        ]
+    },
+    {
+        "userId": 1315724,
+        "userName": "Praneeth",
+        "email": "praneeth.dodedu@happiestminds.com",
+        "type": "user",
+        "profile": "employee",
+        "state": "ACTIVE",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6Ijk5OTExNTZhLTNkM2QtNDVhMC05ZjcxLTkwMDBiZTJkOTc1OSIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.o2znk7-ysrlcn0aaF9rgMYMm7Mr2pWCKCI49Z3t-pYI",
+        "manager": {
+            "userId": 1310769,
+            "userName": "Chandra Ch",
+            "email": "chandrasekhar003@gmail.com",
+            "type": "user",
+            "profile": "admin",
+            "state": "ACTIVE",
+            "userType": "Internal",
+            "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+            "manager": null,
+            "roles": [
+                "Admin",
+                "Author",
+                "Manager",
+                "Integration Admin",
+                "Learner"
+            ]
+        },
+        "roles": [
+            "Learner"
+        ]
+    },
+    {
+        "userId": 1336424,
+        "userName": "Praneeth D",
+        "email": "praneeth.899@gmail.com",
+        "type": "user",
+        "profile": "employee",
+        "state": "ACTIVE",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImViOGMzYjcyLTA5ODEtNDRkMi05MGY5LTkyYzU2ZjFlMDgzYSIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.OhmVJuG8_cp0N3e6Iz3NejNbGPbXC_4zoxA09tj_7wI",
+        "manager": {
+            "userId": 1310769,
+            "userName": "Chandra Ch",
+            "email": "chandrasekhar003@gmail.com",
+            "type": "user",
+            "profile": "admin",
+            "state": "ACTIVE",
+            "userType": "Internal",
+            "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+            "manager": null,
+            "roles": [
+                "Admin",
+                "Author",
+                "Manager",
+                "Integration Admin",
+                "Learner"
+            ]
+        },
+        "roles": [
+            "Learner"
+        ]
+    },
+    {
+        "userId": 1354367,
+        "userName": "Deepthi",
+        "email": "deepthi.vt@hapiestminds.com",
+        "type": "user",
+        "profile": null,
+        "state": "DELETED",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6Ijc0OWJiYzAyLTc1ZWItNGQzMC1hYTQwLWU3MGMxNzVjNmU4MSIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.MgyHQGb4g33maqTK9gRKGNSHkiu1xehuuN-Vi1_uzcs",
+        "manager": {
+            "userId": 1310769,
+            "userName": "Chandra Ch",
+            "email": "chandrasekhar003@gmail.com",
+            "type": "user",
+            "profile": "admin",
+            "state": "ACTIVE",
+            "userType": "Internal",
+            "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+            "manager": null,
+            "roles": [
+                "Admin",
+                "Author",
+                "Manager",
+                "Integration Admin",
+                "Learner"
+            ]
+        },
+        "roles": [
+            "Learner"
+        ]
+    },
+    {
+        "userId": 1391268,
+        "userName": "praneeth test",
+        "email": "praneeth.dodedu@gmail.com",
+        "type": "user",
+        "profile": "employee",
+        "state": "ACTIVE",
+        "userType": "Internal",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImIwMzY4MGI0LTQ2NjUtNGE2Zi05NjVmLWFlNmZjMGI0ODJjNiIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.SlHzWlUhDkj61z0SGnHBKTBRlEO-Ea43rnLAdEmqjRw",
+        "manager": {
+            "userId": 1310769,
+            "userName": "Chandra Ch",
+            "email": "chandrasekhar003@gmail.com",
+            "type": "user",
+            "profile": "admin",
+            "state": "ACTIVE",
+            "userType": "Internal",
+            "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjUyMDkxYWExLWIzNmItNGYwNS1hNWVlLWNmYmJkOTdiYjhjZCIsInYiOiIxIiwiZXhwIjoxNTA0MDA4MjE1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAzNDAzNDE1LCJjaWQiOiIxNTkifQ.jlWR4gqZu8_yKsNFDqMF594biW9EZjhx0YT8XM2SQgI",
+            "manager": null,
+            "roles": [
+                "Admin",
+                "Author",
+                "Manager",
+                "Integration Admin",
+                "Learner"
+            ]
+        },
+        "roles": [
+            "Learner"
+        ]
+    }
+]

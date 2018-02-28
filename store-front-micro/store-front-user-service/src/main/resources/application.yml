@@ -1,0 +1,42 @@
+server:
+  port: ${PORT:2222}
+  session:
+    timeout: 40000
+spring:
+  application:
+    name: user-service
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    port: 6379
+logging:
+  pattern:
+    console: '%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p})
+      %clr([${springAppName:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}]){yellow}
+      %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan}
+      %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'
+  level:
+    org.springframework: WARN
+    org.hibernate: WARN
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 200000
+  ConnectTimeout: 200000
+security:
+  basic:
+    enabled: false
+  sessions: never
+management:
+  security:
+    sessions: never

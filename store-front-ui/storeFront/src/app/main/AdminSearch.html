@@ -1,0 +1,109 @@
+<div class="searchResultDiv container-fluid" >
+  <div class="row searchRow">
+    <div class="col-md-12">
+      <div class="col-md-4 searchTags">
+        <button class="btn searchBtn" disabled>Refine Search Results</button>
+        <div class="col-md-12 resultFilter">
+          <h5>Catalogs</h5>
+          <div class="filterDiv">
+            <div class="checkbox" ng-repeat="catalog in getAllCatalogs track by $index">
+              <label>
+                <input id={{catalog.catalogId}} type="checkbox" disabled>{{catalog.catalogName}}
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 resultFilter">
+          <h5>Types</h5>
+          <div class="filterDiv">
+            <div class="checkbox" ng-repeat="type in getAllCourseType track by $index">
+              <label>
+                <input type="checkbox" disabled>{{type}}
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 resultFilter">
+          <h5>Skills</h5>
+          <div class="filterDiv">
+            <div class="checkbox">
+              <label>
+                <input id="" type="checkbox" disabled>Skills<br>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 resultFilter">
+          <h5>Tags</h5>
+          <div class="filterDiv">
+            <div class="checkbox">
+              <label>
+                <input id="" type="checkbox" disabled>Tags
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 resultFilter">
+          <h5>Status</h5>
+          <div class="filterDiv">
+            <div class="checkbox" ng-repeat="status in getAllCourseStatus track by $index">
+              <label>
+                <input type="checkbox" disabled>{{status}}
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 searchDetails">
+        <div class="resultWord"> Search for "{{searchText}}"</div>
+        <div class="col-md-12 searchSection" ng-repeat="result in getSearchResult">
+          <div class="col-md-4 searchImg">
+            <img class="learningImage" src="assets/images/courseImg4.jpeg" alt="courseImage image">
+          </div>
+          <div class="col-md-8">
+            <h5 class="titleStyle">{{result.catalogName?result.catalogName: result.courseName}}</h5>
+            <div class="col-md-10 searchDes">
+              <p>{{result.description?result.description: result.courseDescription}}</p>
+              <p>Type: {{selectedOption}}</p>
+              <!-- <p>"When using tooltips or popovers on elements within an .input-group,
+                you'll have to specify the option container: 'body' to avoid unwanted side effects."</p> -->
+            </div>
+            <div class="col-md-2">
+              <button class="btn searchExpBtn" ng-click="pageUrl(result, selectedOption)">Explore</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-12 searchSection">
+          <div class="col-md-4 searchImg">
+            <img src="assets/images/course1.png" alt="courseImage image">
+          </div>
+          <div class="col-md-8">
+            <h5 class="linkableTitle titleStyle">coure heading</h5>
+            <div class="col-md-10 searchDes">
+              <p>"When using tooltips or popovers on elements within an .input-group,
+                you'll have to specify the option container: 'body' to avoid unwanted side effects."</p>
+            </div>
+            <div class="col-md-2">
+              <button class="btn searchExpBtn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 searchSection">
+          <div class="col-md-4 searchImg">
+            <img src="assets/images/course1.png" alt="courseImage image">
+          </div>
+          <div class="col-md-8">
+            <h5 class="linkableTitle titleStyle">coure heading</h5>
+            <div class="col-md-10 searchDes">
+              <p>"When using tooltips or popovers on elements within an .input-group,
+                you'll have to specify the option container: 'body' to avoid unwanted side effects."</p>
+            </div>
+            <div class="col-md-2">
+              <button class="btn searchExpBtn">Explore</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>

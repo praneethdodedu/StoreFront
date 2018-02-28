@@ -1,0 +1,20 @@
+server:  
+  port: ${PORT:8761}
+  session:
+    timeout: 40000
+    
+eureka:  
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: true  
+    
+security:
+#  basic:
+#    enabled: false
+  user:
+    name: root
+    password: password

@@ -1,0 +1,2129 @@
+[
+    {
+        "catalogId": 34380,
+        "catalogName": "Default Catalog",
+        "state": "Enabled",
+        "description": "Collection of all the learning objects in your account. The contents of this catalog cannot be shared externally and are visible to all Learners by default.",
+        "dateCreated": 1496668939000,
+        "dateUpdated": 1496668939000,
+        "courses": [],
+        "default": true
+    },
+    {
+        "catalogId": 34381,
+        "catalogName": "Big Data Analysis Catalogue",
+        "state": "Enabled",
+        "description": "big data analysis",
+        "dateCreated": 1496669072000,
+        "dateUpdated": 1496670559000,
+        "courses": [
+            {
+                "courseId": 485401,
+                "courseName": "Big Data Analysis",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496670145000,
+                "dateUpdated": 1496670230000,
+                "module": [
+                    {
+                        "moduleId": 897158,
+                        "type": "module",
+                        "description": "What is Big Data Analysis",
+                        "moduleType": "ELEARNING",
+                        "title": "Big Data Analysis",
+                        "dateUpdated": 1496670149000
+                    }
+                ],
+                "author": null
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34413,
+        "catalogName": "Prime Management ",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496690481000,
+        "dateUpdated": 1496735007000,
+        "courses": [
+            {
+                "courseId": 485390,
+                "courseName": "Authoring in Prime",
+                "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897128,
+                        "type": "module",
+                        "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Author Overview",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897129,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Authoring Assessment",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485391,
+                "courseName": "Learning in Prime",
+                "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897130,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Assessment",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897131,
+                        "type": "module",
+                        "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485394,
+                "courseName": "Managing in Prime",
+                "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897141,
+                        "type": "module",
+                        "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Manager Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485395,
+                "courseName": "Administration in Prime",
+                "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897127,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Administration Assessment",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897142,
+                        "type": "module",
+                        "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Administration Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34416,
+        "catalogName": "General Catalog",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496736253000,
+        "dateUpdated": 1496809750000,
+        "courses": [],
+        "default": false
+    },
+    {
+        "catalogId": 34452,
+        "catalogName": "Java Programming1",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496796860000,
+        "dateUpdated": 1496894653000,
+        "courses": [
+            {
+                "courseId": 485393,
+                "courseName": "Find Your Customer (Sample Course)",
+                "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897137,
+                        "type": "module",
+                        "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                        "moduleType": "ELEARNING",
+                        "title": "How to Identify a Customer",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897138,
+                        "type": "module",
+                        "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                        "moduleType": "ELEARNING",
+                        "title": "Customer Identification by Personality",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897139,
+                        "type": "module",
+                        "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                        "moduleType": "ELEARNING",
+                        "title": "New Destinations - Q3_2015",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897140,
+                        "type": "module",
+                        "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                        "moduleType": "ELEARNING",
+                        "title": "Customer Identification - Assessment",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486085,
+                "courseName": "Java Programming",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496796141000,
+                "dateUpdated": 1496796204000,
+                "module": [
+                    {
+                        "moduleId": 898736,
+                        "type": "module",
+                        "description": null,
+                        "moduleType": "ELEARNING",
+                        "title": "Java Programming",
+                        "dateUpdated": 1496796142000
+                    }
+                ],
+                "author": null
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34458,
+        "catalogName": "Knowledge",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496810206000,
+        "dateUpdated": 1496810610000,
+        "courses": [
+            {
+                "courseId": 486142,
+                "courseName": "Knowledge",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496809928000,
+                "dateUpdated": 1496809949000,
+                "module": [],
+                "author": {
+                    "userId": 1310769,
+                    "userName": "Chandra Ch",
+                    "email": "chandrasekhar003@gmail.com",
+                    "type": "user",
+                    "profile": "admin",
+                    "state": "ACTIVE",
+                    "userType": "Internal",
+                    "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImVjMjY2YzgzLTZjN2EtNDIwNy1hYWE1LWZlYjNmMjY5MDA0NyIsInYiOiIxIiwiZXhwIjoxNDk5NzU3NDM4LCJyaWQiOiI1MDcyIiwiaWF0IjoxNDk5MTUyNjM4LCJjaWQiOiIxNTkifQ.naeQOjemEEtUVALEePWc3qT1gZmRF_WYjoTfT11RKR8",
+                    "manager": null,
+                    "courses": [
+                        {
+                            "courseId": 485390,
+                            "courseName": "Authoring in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897128,
+                                    "type": "module",
+                                    "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Author Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897129,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Authoring Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485391,
+                            "courseName": "Learning in Prime",
+                            "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897130,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897131,
+                                    "type": "module",
+                                    "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485392,
+                            "courseName": "Business Communications (Sample Course)",
+                            "courseDescription": "Learn the basics of business communications with Alice and the wacky weather crew.",
+                            "courseOverview": "An introduction to fundamental principles in Business Communications. Includes an introduction to telephone communication strategies and basic concepts in modern communications channels, like texting and instant messages. Learn the best way to use common abbreviations, and other tips about office communications.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897132,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Communications Basics",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897133,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Telephone Communication Strategies",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897134,
+                                    "type": "module",
+                                    "description": "An introduction to Business Communications practices and procedures, followed by a brief assessment of your skills.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Interactive Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897135,
+                                    "type": "module",
+                                    "description": "An overview of best practices for telephone communication. Introduction to conversational strategy and customer interaction.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Speaking on the Telephone",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897136,
+                                    "type": "module",
+                                    "description": "This is the test-out bypass exam for learners who wish to demonstrate their proficiency in Business Communication rather than take the course in full.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485393,
+                            "courseName": "Find Your Customer (Sample Course)",
+                            "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                            "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897137,
+                                    "type": "module",
+                                    "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "How to Identify a Customer",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897138,
+                                    "type": "module",
+                                    "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification by Personality",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897139,
+                                    "type": "module",
+                                    "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "New Destinations - Q3_2015",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897140,
+                                    "type": "module",
+                                    "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485394,
+                            "courseName": "Managing in Prime",
+                            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897141,
+                                    "type": "module",
+                                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Manager Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485395,
+                            "courseName": "Administration in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897127,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897142,
+                                    "type": "module",
+                                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485401,
+                            "courseName": "Big Data Analysis",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496670145000,
+                            "dateUpdated": 1496670230000,
+                            "module": [
+                                {
+                                    "moduleId": 897158,
+                                    "type": "module",
+                                    "description": "What is Big Data Analysis",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Big Data Analysis",
+                                    "dateUpdated": 1496670149000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486075,
+                            "courseName": "Business Analytics",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496793500000,
+                            "dateUpdated": 1496793555000,
+                            "module": [
+                                {
+                                    "moduleId": 898716,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Analytics",
+                                    "dateUpdated": 1496793500000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486085,
+                            "courseName": "Java Programming",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496796141000,
+                            "dateUpdated": 1496796204000,
+                            "module": [
+                                {
+                                    "moduleId": 898736,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Java Programming",
+                                    "dateUpdated": 1496796142000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486086,
+                            "courseName": "Python Programming",
+                            "courseDescription": "This course is for python beginners",
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496797580000,
+                            "dateUpdated": 1496797623000,
+                            "module": [
+                                {
+                                    "moduleId": 898737,
+                                    "type": "module",
+                                    "description": "This is python programming language",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Python",
+                                    "dateUpdated": 1496797581000
+                                }
+                            ],
+                            "author": null
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34515,
+        "catalogName": "Programming ",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496876941000,
+        "dateUpdated": 1496967111000,
+        "courses": [
+            {
+                "courseId": 485394,
+                "courseName": "Managing in Prime",
+                "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897141,
+                        "type": "module",
+                        "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Manager Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486086,
+                "courseName": "Python Programming",
+                "courseDescription": "This course is for python beginners",
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496797580000,
+                "dateUpdated": 1496797623000,
+                "module": [
+                    {
+                        "moduleId": 898737,
+                        "type": "module",
+                        "description": "This is python programming language",
+                        "moduleType": "ELEARNING",
+                        "title": "Python",
+                        "dateUpdated": 1496797581000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486124,
+                "courseName": "AngularJS",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496805742000,
+                "dateUpdated": 1496805883000,
+                "module": [],
+                "author": {
+                    "userId": 1310769,
+                    "userName": "Chandra Ch",
+                    "email": "chandrasekhar003@gmail.com",
+                    "type": "user",
+                    "profile": "admin",
+                    "state": "ACTIVE",
+                    "userType": "Internal",
+                    "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImVjMjY2YzgzLTZjN2EtNDIwNy1hYWE1LWZlYjNmMjY5MDA0NyIsInYiOiIxIiwiZXhwIjoxNDk5NzU3NDM4LCJyaWQiOiI1MDcyIiwiaWF0IjoxNDk5MTUyNjM4LCJjaWQiOiIxNTkifQ.naeQOjemEEtUVALEePWc3qT1gZmRF_WYjoTfT11RKR8",
+                    "manager": null,
+                    "courses": [
+                        {
+                            "courseId": 485390,
+                            "courseName": "Authoring in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897128,
+                                    "type": "module",
+                                    "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Author Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897129,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Authoring Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485391,
+                            "courseName": "Learning in Prime",
+                            "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897130,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897131,
+                                    "type": "module",
+                                    "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485392,
+                            "courseName": "Business Communications (Sample Course)",
+                            "courseDescription": "Learn the basics of business communications with Alice and the wacky weather crew.",
+                            "courseOverview": "An introduction to fundamental principles in Business Communications. Includes an introduction to telephone communication strategies and basic concepts in modern communications channels, like texting and instant messages. Learn the best way to use common abbreviations, and other tips about office communications.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897132,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Communications Basics",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897133,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Telephone Communication Strategies",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897134,
+                                    "type": "module",
+                                    "description": "An introduction to Business Communications practices and procedures, followed by a brief assessment of your skills.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Interactive Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897135,
+                                    "type": "module",
+                                    "description": "An overview of best practices for telephone communication. Introduction to conversational strategy and customer interaction.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Speaking on the Telephone",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897136,
+                                    "type": "module",
+                                    "description": "This is the test-out bypass exam for learners who wish to demonstrate their proficiency in Business Communication rather than take the course in full.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485393,
+                            "courseName": "Find Your Customer (Sample Course)",
+                            "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                            "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897137,
+                                    "type": "module",
+                                    "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "How to Identify a Customer",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897138,
+                                    "type": "module",
+                                    "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification by Personality",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897139,
+                                    "type": "module",
+                                    "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "New Destinations - Q3_2015",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897140,
+                                    "type": "module",
+                                    "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485394,
+                            "courseName": "Managing in Prime",
+                            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897141,
+                                    "type": "module",
+                                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Manager Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485395,
+                            "courseName": "Administration in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897127,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897142,
+                                    "type": "module",
+                                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485401,
+                            "courseName": "Big Data Analysis",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496670145000,
+                            "dateUpdated": 1496670230000,
+                            "module": [
+                                {
+                                    "moduleId": 897158,
+                                    "type": "module",
+                                    "description": "What is Big Data Analysis",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Big Data Analysis",
+                                    "dateUpdated": 1496670149000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486075,
+                            "courseName": "Business Analytics",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496793500000,
+                            "dateUpdated": 1496793555000,
+                            "module": [
+                                {
+                                    "moduleId": 898716,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Analytics",
+                                    "dateUpdated": 1496793500000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486085,
+                            "courseName": "Java Programming",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496796141000,
+                            "dateUpdated": 1496796204000,
+                            "module": [
+                                {
+                                    "moduleId": 898736,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Java Programming",
+                                    "dateUpdated": 1496796142000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486086,
+                            "courseName": "Python Programming",
+                            "courseDescription": "This course is for python beginners",
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496797580000,
+                            "dateUpdated": 1496797623000,
+                            "module": [
+                                {
+                                    "moduleId": 898737,
+                                    "type": "module",
+                                    "description": "This is python programming language",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Python",
+                                    "dateUpdated": 1496797581000
+                                }
+                            ],
+                            "author": null
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34532,
+        "catalogName": "price",
+        "state": "Disabled",
+        "description": "",
+        "dateCreated": 1496898139000,
+        "dateUpdated": 1496898139000,
+        "courses": [
+            {
+                "courseId": 486086,
+                "courseName": "Python Programming",
+                "courseDescription": "This course is for python beginners",
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496797580000,
+                "dateUpdated": 1496797623000,
+                "module": [
+                    {
+                        "moduleId": 898737,
+                        "type": "module",
+                        "description": "This is python programming language",
+                        "moduleType": "ELEARNING",
+                        "title": "Python",
+                        "dateUpdated": 1496797581000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486124,
+                "courseName": "AngularJS",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496805742000,
+                "dateUpdated": 1496805883000,
+                "module": [],
+                "author": {
+                    "userId": 1310769,
+                    "userName": "Chandra Ch",
+                    "email": "chandrasekhar003@gmail.com",
+                    "type": "user",
+                    "profile": "admin",
+                    "state": "ACTIVE",
+                    "userType": "Internal",
+                    "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImVjMjY2YzgzLTZjN2EtNDIwNy1hYWE1LWZlYjNmMjY5MDA0NyIsInYiOiIxIiwiZXhwIjoxNDk5NzU3NDM4LCJyaWQiOiI1MDcyIiwiaWF0IjoxNDk5MTUyNjM4LCJjaWQiOiIxNTkifQ.naeQOjemEEtUVALEePWc3qT1gZmRF_WYjoTfT11RKR8",
+                    "manager": null,
+                    "courses": [
+                        {
+                            "courseId": 485390,
+                            "courseName": "Authoring in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897128,
+                                    "type": "module",
+                                    "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Author Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897129,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Authoring Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485391,
+                            "courseName": "Learning in Prime",
+                            "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897130,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897131,
+                                    "type": "module",
+                                    "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485392,
+                            "courseName": "Business Communications (Sample Course)",
+                            "courseDescription": "Learn the basics of business communications with Alice and the wacky weather crew.",
+                            "courseOverview": "An introduction to fundamental principles in Business Communications. Includes an introduction to telephone communication strategies and basic concepts in modern communications channels, like texting and instant messages. Learn the best way to use common abbreviations, and other tips about office communications.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897132,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Communications Basics",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897133,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Telephone Communication Strategies",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897134,
+                                    "type": "module",
+                                    "description": "An introduction to Business Communications practices and procedures, followed by a brief assessment of your skills.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Interactive Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897135,
+                                    "type": "module",
+                                    "description": "An overview of best practices for telephone communication. Introduction to conversational strategy and customer interaction.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Speaking on the Telephone",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897136,
+                                    "type": "module",
+                                    "description": "This is the test-out bypass exam for learners who wish to demonstrate their proficiency in Business Communication rather than take the course in full.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485393,
+                            "courseName": "Find Your Customer (Sample Course)",
+                            "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                            "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897137,
+                                    "type": "module",
+                                    "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "How to Identify a Customer",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897138,
+                                    "type": "module",
+                                    "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification by Personality",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897139,
+                                    "type": "module",
+                                    "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "New Destinations - Q3_2015",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897140,
+                                    "type": "module",
+                                    "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485394,
+                            "courseName": "Managing in Prime",
+                            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897141,
+                                    "type": "module",
+                                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Manager Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485395,
+                            "courseName": "Administration in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897127,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897142,
+                                    "type": "module",
+                                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485401,
+                            "courseName": "Big Data Analysis",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496670145000,
+                            "dateUpdated": 1496670230000,
+                            "module": [
+                                {
+                                    "moduleId": 897158,
+                                    "type": "module",
+                                    "description": "What is Big Data Analysis",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Big Data Analysis",
+                                    "dateUpdated": 1496670149000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486075,
+                            "courseName": "Business Analytics",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496793500000,
+                            "dateUpdated": 1496793555000,
+                            "module": [
+                                {
+                                    "moduleId": 898716,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Analytics",
+                                    "dateUpdated": 1496793500000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486085,
+                            "courseName": "Java Programming",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496796141000,
+                            "dateUpdated": 1496796204000,
+                            "module": [
+                                {
+                                    "moduleId": 898736,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Java Programming",
+                                    "dateUpdated": 1496796142000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486086,
+                            "courseName": "Python Programming",
+                            "courseDescription": "This course is for python beginners",
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496797580000,
+                            "dateUpdated": 1496797623000,
+                            "module": [
+                                {
+                                    "moduleId": 898737,
+                                    "type": "module",
+                                    "description": "This is python programming language",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Python",
+                                    "dateUpdated": 1496797581000
+                                }
+                            ],
+                            "author": null
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34575,
+        "catalogName": "Programming Skills ",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496966497000,
+        "dateUpdated": 1496966675000,
+        "courses": [
+            {
+                "courseId": 486085,
+                "courseName": "Java Programming",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496796141000,
+                "dateUpdated": 1496796204000,
+                "module": [
+                    {
+                        "moduleId": 898736,
+                        "type": "module",
+                        "description": null,
+                        "moduleType": "ELEARNING",
+                        "title": "Java Programming",
+                        "dateUpdated": 1496796142000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486086,
+                "courseName": "Python Programming",
+                "courseDescription": "This course is for python beginners",
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496797580000,
+                "dateUpdated": 1496797623000,
+                "module": [
+                    {
+                        "moduleId": 898737,
+                        "type": "module",
+                        "description": "This is python programming language",
+                        "moduleType": "ELEARNING",
+                        "title": "Python",
+                        "dateUpdated": 1496797581000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 486124,
+                "courseName": "AngularJS",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496805742000,
+                "dateUpdated": 1496805883000,
+                "module": [],
+                "author": {
+                    "userId": 1310769,
+                    "userName": "Chandra Ch",
+                    "email": "chandrasekhar003@gmail.com",
+                    "type": "user",
+                    "profile": "admin",
+                    "state": "ACTIVE",
+                    "userType": "Internal",
+                    "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImVjMjY2YzgzLTZjN2EtNDIwNy1hYWE1LWZlYjNmMjY5MDA0NyIsInYiOiIxIiwiZXhwIjoxNDk5NzU3NDM4LCJyaWQiOiI1MDcyIiwiaWF0IjoxNDk5MTUyNjM4LCJjaWQiOiIxNTkifQ.naeQOjemEEtUVALEePWc3qT1gZmRF_WYjoTfT11RKR8",
+                    "manager": null,
+                    "courses": [
+                        {
+                            "courseId": 485390,
+                            "courseName": "Authoring in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897128,
+                                    "type": "module",
+                                    "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Author Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897129,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Authoring Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485391,
+                            "courseName": "Learning in Prime",
+                            "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897130,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897131,
+                                    "type": "module",
+                                    "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485392,
+                            "courseName": "Business Communications (Sample Course)",
+                            "courseDescription": "Learn the basics of business communications with Alice and the wacky weather crew.",
+                            "courseOverview": "An introduction to fundamental principles in Business Communications. Includes an introduction to telephone communication strategies and basic concepts in modern communications channels, like texting and instant messages. Learn the best way to use common abbreviations, and other tips about office communications.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897132,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Communications Basics",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897133,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Telephone Communication Strategies",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897134,
+                                    "type": "module",
+                                    "description": "An introduction to Business Communications practices and procedures, followed by a brief assessment of your skills.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Interactive Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897135,
+                                    "type": "module",
+                                    "description": "An overview of best practices for telephone communication. Introduction to conversational strategy and customer interaction.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Speaking on the Telephone",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897136,
+                                    "type": "module",
+                                    "description": "This is the test-out bypass exam for learners who wish to demonstrate their proficiency in Business Communication rather than take the course in full.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485393,
+                            "courseName": "Find Your Customer (Sample Course)",
+                            "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                            "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897137,
+                                    "type": "module",
+                                    "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "How to Identify a Customer",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897138,
+                                    "type": "module",
+                                    "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification by Personality",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897139,
+                                    "type": "module",
+                                    "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "New Destinations - Q3_2015",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897140,
+                                    "type": "module",
+                                    "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485394,
+                            "courseName": "Managing in Prime",
+                            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897141,
+                                    "type": "module",
+                                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Manager Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485395,
+                            "courseName": "Administration in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897127,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897142,
+                                    "type": "module",
+                                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485401,
+                            "courseName": "Big Data Analysis",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496670145000,
+                            "dateUpdated": 1496670230000,
+                            "module": [
+                                {
+                                    "moduleId": 897158,
+                                    "type": "module",
+                                    "description": "What is Big Data Analysis",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Big Data Analysis",
+                                    "dateUpdated": 1496670149000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486075,
+                            "courseName": "Business Analytics",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496793500000,
+                            "dateUpdated": 1496793555000,
+                            "module": [
+                                {
+                                    "moduleId": 898716,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Analytics",
+                                    "dateUpdated": 1496793500000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486085,
+                            "courseName": "Java Programming",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496796141000,
+                            "dateUpdated": 1496796204000,
+                            "module": [
+                                {
+                                    "moduleId": 898736,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Java Programming",
+                                    "dateUpdated": 1496796142000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486086,
+                            "courseName": "Python Programming",
+                            "courseDescription": "This course is for python beginners",
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496797580000,
+                            "dateUpdated": 1496797623000,
+                            "module": [
+                                {
+                                    "moduleId": 898737,
+                                    "type": "module",
+                                    "description": "This is python programming language",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Python",
+                                    "dateUpdated": 1496797581000
+                                }
+                            ],
+                            "author": null
+                        }
+                    ]
+                }
+            },
+            {
+                "courseId": 487055,
+                "courseName": ".NET frame work",
+                "courseDescription": null,
+                "courseOverview": null,
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496966398000,
+                "dateUpdated": 1496966426000,
+                "module": [],
+                "author": {
+                    "userId": 1310769,
+                    "userName": "Chandra Ch",
+                    "email": "chandrasekhar003@gmail.com",
+                    "type": "user",
+                    "profile": "admin",
+                    "state": "ACTIVE",
+                    "userType": "Internal",
+                    "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImVjMjY2YzgzLTZjN2EtNDIwNy1hYWE1LWZlYjNmMjY5MDA0NyIsInYiOiIxIiwiZXhwIjoxNDk5NzU3NDM4LCJyaWQiOiI1MDcyIiwiaWF0IjoxNDk5MTUyNjM4LCJjaWQiOiIxNTkifQ.naeQOjemEEtUVALEePWc3qT1gZmRF_WYjoTfT11RKR8",
+                    "manager": null,
+                    "courses": [
+                        {
+                            "courseId": 485390,
+                            "courseName": "Authoring in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897128,
+                                    "type": "module",
+                                    "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Author Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897129,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Authoring Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485391,
+                            "courseName": "Learning in Prime",
+                            "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897130,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897131,
+                                    "type": "module",
+                                    "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Learner Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485392,
+                            "courseName": "Business Communications (Sample Course)",
+                            "courseDescription": "Learn the basics of business communications with Alice and the wacky weather crew.",
+                            "courseOverview": "An introduction to fundamental principles in Business Communications. Includes an introduction to telephone communication strategies and basic concepts in modern communications channels, like texting and instant messages. Learn the best way to use common abbreviations, and other tips about office communications.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897132,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Communications Basics",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897133,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Telephone Communication Strategies",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897134,
+                                    "type": "module",
+                                    "description": "An introduction to Business Communications practices and procedures, followed by a brief assessment of your skills.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Interactive Overview",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897135,
+                                    "type": "module",
+                                    "description": "An overview of best practices for telephone communication. Introduction to conversational strategy and customer interaction.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Speaking on the Telephone",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897136,
+                                    "type": "module",
+                                    "description": "This is the test-out bypass exam for learners who wish to demonstrate their proficiency in Business Communication rather than take the course in full.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Communications - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485393,
+                            "courseName": "Find Your Customer (Sample Course)",
+                            "courseDescription": "Learn how to identify customers who are most likely to purchase your product.",
+                            "courseOverview": "You'll learn how to speak to customers based on their needs and expectations, quickly evaluate their readiness to purchase, and how to both persuade and examine the potential of each lead.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897137,
+                                    "type": "module",
+                                    "description": "Learn the fundamental concepts in lead generation through this entertaining and educational simulation. Screening potential leads to improve your sales can be a genuine challenge. In this course, you'll learn some great tactics for engaging with customers, rapidly identifying their personality types, and drilling through to key issues that can help you decide how much energy to invest in the potential lead.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "How to Identify a Customer",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897138,
+                                    "type": "module",
+                                    "description": "A video review of Elemental Selling strategies. Learn the principles and methods of lead qualification by identifying personality types based on the four common elements of nature. This video includes a review of the four elemental personality types, a discussion of lead qualification stages in the four step funnel, and reviews the language to use when selling to each personality type.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification by Personality",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897139,
+                                    "type": "module",
+                                    "description": "A quick overview of the newest vacation offerings from Virtual Vacations. Enhance your sales strategy by featuring our newest destinations. This quarter's release includes an array of exotic experiences for the discerning virtual traveler. You'll find the key selling points of these amazing new trips to Moscow, Cairo, and Rome in this handy overview.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "New Destinations - Q3_2015",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897140,
+                                    "type": "module",
+                                    "description": "A brief evaluation of your comprehension of the Jake Harding Elemental Selling Instructional Series. This assessment examines your comprehension of the personality profiles, the sales funnel, and the use of language to rapidly qualify potential sales leads.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Customer Identification - Assessment",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485394,
+                            "courseName": "Managing in Prime",
+                            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897141,
+                                    "type": "module",
+                                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Manager Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485395,
+                            "courseName": "Administration in Prime",
+                            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496668938000,
+                            "dateUpdated": 1496668938000,
+                            "module": [
+                                {
+                                    "moduleId": 897127,
+                                    "type": "module",
+                                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Assessment",
+                                    "dateUpdated": 1496668938000
+                                },
+                                {
+                                    "moduleId": 897142,
+                                    "type": "module",
+                                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Prime Administration Overview",
+                                    "dateUpdated": 1496668938000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 485401,
+                            "courseName": "Big Data Analysis",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496670145000,
+                            "dateUpdated": 1496670230000,
+                            "module": [
+                                {
+                                    "moduleId": 897158,
+                                    "type": "module",
+                                    "description": "What is Big Data Analysis",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Big Data Analysis",
+                                    "dateUpdated": 1496670149000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486075,
+                            "courseName": "Business Analytics",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496793500000,
+                            "dateUpdated": 1496793555000,
+                            "module": [
+                                {
+                                    "moduleId": 898716,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Business Analytics",
+                                    "dateUpdated": 1496793500000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486085,
+                            "courseName": "Java Programming",
+                            "courseDescription": null,
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496796141000,
+                            "dateUpdated": 1496796204000,
+                            "module": [
+                                {
+                                    "moduleId": 898736,
+                                    "type": "module",
+                                    "description": null,
+                                    "moduleType": "ELEARNING",
+                                    "title": "Java Programming",
+                                    "dateUpdated": 1496796142000
+                                }
+                            ],
+                            "author": null
+                        },
+                        {
+                            "courseId": 486086,
+                            "courseName": "Python Programming",
+                            "courseDescription": "This course is for python beginners",
+                            "courseOverview": null,
+                            "courseState": "Published",
+                            "coursetype": "ELEARNING",
+                            "enrollmentType": "Self Enroll",
+                            "dateCreated": 1496797580000,
+                            "dateUpdated": 1496797623000,
+                            "module": [
+                                {
+                                    "moduleId": 898737,
+                                    "type": "module",
+                                    "description": "This is python programming language",
+                                    "moduleType": "ELEARNING",
+                                    "title": "Python",
+                                    "dateUpdated": 1496797581000
+                                }
+                            ],
+                            "author": null
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": false
+    },
+    {
+        "catalogId": 34948,
+        "catalogName": "GK",
+        "state": "Disabled",
+        "description": "",
+        "dateCreated": 1497842307000,
+        "dateUpdated": 1497842307000,
+        "courses": [
+            {
+                "courseId": 485390,
+                "courseName": "Authoring in Prime",
+                "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897128,
+                        "type": "module",
+                        "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Author Overview",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897129,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Authoring Assessment",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485391,
+                "courseName": "Learning in Prime",
+                "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897130,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Assessment",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897131,
+                        "type": "module",
+                        "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485394,
+                "courseName": "Managing in Prime",
+                "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "module": [
+                    {
+                        "moduleId": 897141,
+                        "type": "module",
+                        "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Manager Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            }
+        ],
+        "default": false
+    }
+]

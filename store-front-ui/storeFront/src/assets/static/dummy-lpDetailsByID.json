@@ -1,0 +1,100 @@
+{
+    "learningProgramId": 6146,
+    "learningProgramName": "Java Specialist ",
+    "state": "Published",
+    "type": "learningProgram",
+    "courseOrderEnforced": "false",
+    "dateCreated": 1496876753000,
+    "dateUpdated": 1496877169000,
+    "effectivenessIndex": 0,
+    "enrollmentType": "Self Enroll",
+    "courses": [
+        {
+            "courseId": 486085,
+            "courseName": "Java Programming",
+            "courseDescription": null,
+            "courseOverview": null,
+            "courseState": "Published",
+            "coursetype": "ELEARNING",
+            "enrollmentType": "Self Enroll",
+            "dateCreated": 1496796141000,
+            "dateUpdated": 1496796204000,
+            "isPublished": true,
+            "module": [
+                {
+                    "moduleId": 898736,
+                    "type": "module",
+                    "description": null,
+                    "moduleType": "ELEARNING",
+                    "title": "Java Programming",
+                    "dateUpdated": 1496796142000
+                }
+            ],
+            "author": {
+                "userId": 1310769,
+                "userName": "Chandra Ch",
+                "email": "chandrasekhar003@gmail.com",
+                "type": "user",
+                "profile": "admin",
+                "state": "ACTIVE",
+                "userType": "Internal",
+                "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6Ijc2MThiOWEyLWMwZmQtNDIxOC04YjY4LTA5MmViZjI3NTMzZCIsInYiOiIxIiwiZXhwIjoxNTAxNDc5NDMxLCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAwODc0NjMxLCJjaWQiOiIxNTkifQ.VttS1CmhLo6Zn2x1NuJlvNmFj1_p7HndEqw4-dY2CsU",
+                "manager": null
+            }
+        },
+        {
+            "courseId": 485394,
+            "courseName": "Managing in Prime",
+            "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+            "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+            "courseState": "Published",
+            "coursetype": "ELEARNING",
+            "enrollmentType": "Self Enroll",
+            "dateCreated": 1496668938000,
+            "dateUpdated": 1496668938000,
+            "isPublished": true,
+            "module": [
+                {
+                    "moduleId": 897141,
+                    "type": "module",
+                    "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                    "moduleType": "ELEARNING",
+                    "title": "Prime Manager Overview",
+                    "dateUpdated": 1496668938000
+                }
+            ],
+            "author": null
+        },
+        {
+            "courseId": 485395,
+            "courseName": "Administration in Prime",
+            "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+            "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+            "courseState": "Published",
+            "coursetype": "ELEARNING",
+            "enrollmentType": "Self Enroll",
+            "dateCreated": 1496668938000,
+            "dateUpdated": 1496668938000,
+            "isPublished": true,
+            "module": [
+                {
+                    "moduleId": 897127,
+                    "type": "module",
+                    "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                    "moduleType": "ELEARNING",
+                    "title": "Prime Administration Assessment",
+                    "dateUpdated": 1496668938000
+                },
+                {
+                    "moduleId": 897142,
+                    "type": "module",
+                    "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                    "moduleType": "ELEARNING",
+                    "title": "Prime Administration Overview",
+                    "dateUpdated": 1496668938000
+                }
+            ],
+            "author": null
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+server:  
+  port: ${PORT:3333}
+  session:
+    timeout: 40000
+
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+          
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 200000
+  ConnectTimeout: 200000
+    
+spring:  
+  application:
+    name: course-service
+
+logging:
+    pattern:
+      console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr([${springAppName:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}]){yellow} %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+    level:
+      org.springframework: WARN
+      org.hibernate: WARN    
+
+security:
+  oauth2:
+    client:
+      clientId: f789c417-5f7d-4d1d-b918-23acab3d9d18
+      clientSecret: 2f76e5ca-fed9-411b-ac8c-118c58fa4047
+      accessTokenUri: https://captivateprime.adobe.com/oauth/token
+      userAuthorizationUri: https://captivateprime.adobe.com/oauth/o/authorize
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      scope: learner:read
+    resource:
+      userInfoUri: http://localhost:8765/ #mine
+  basic:
+    enabled: false
+  user:
+    name: root
+    password: password

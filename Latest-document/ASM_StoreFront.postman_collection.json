@@ -1,0 +1,94 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ASM_StoreFront",
+		"_postman_id": "b4f43532-7824-a2bf-a397-ed82e5a50195",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Catalogues ",
+			"request": {
+				"url": "http://localhost:8080/catalogue",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Retrive all the available catalogues "
+			},
+			"response": []
+		},
+		{
+			"name": "Get courses for a given catalogue",
+			"request": {
+				"url": "http://localhost:8080/courses/catalogue/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Lists the courses for the give catalogue"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Course Details",
+			"request": {
+				"url": "http://localhost:8080/courses/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Get Course details of a specific course"
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Catalogues",
+			"request": {
+				"url": "http://localhost:8080/catalogue/users/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List the catalogues for a particular user"
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Courses",
+			"request": {
+				"url": "http://localhost:8080/courses/user/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Get the list of courses for the user"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Course Modules",
+			"request": {
+				"url": "http://localhost:8080/modules/course/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List the modules for the given course"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Module details by module Id",
+			"request": {
+				"url": "http://localhost:8080/modules/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Retrives the module details for the given module"
+			},
+			"response": []
+		}
+	]
+}

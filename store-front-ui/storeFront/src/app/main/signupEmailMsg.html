@@ -1,0 +1,17 @@
+<div ng-if="registerUser.successMessage != null">
+  <div class="successIcon">
+    <span><i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i></span>
+  </div>
+  <div class="successMessage">
+    <p >{{registerUser.successMessage}}</p>
+  </div>
+</div>
+<div ng-if="errorRegisterUser.errorMessage != null">
+  <div class="errorIcon">
+    <span><i class="fa fa-times-circle-o fa-3x" aria-hidden="true"></i></span>
+  </div>
+  <div class="errorMessage">
+    <!-- <p >{{errorRegisterUser.errorMessage}}</p> -->
+    <p>Either Email Id or UUID already exists.</p>
+  </div>
+</div>

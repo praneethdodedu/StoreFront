@@ -1,0 +1,21 @@
+.body{
+  font-family: 'Arial Regular', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+}
+
+.container {
+
+}
+
+.navbar-wrapper {
+  color: #333333;
+}
+
+.nav-custom{
+  float:right;
+}

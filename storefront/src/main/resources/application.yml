@@ -1,0 +1,17 @@
+ security:
+  oauth2:
+    client:
+      clientId: f789c417-5f7d-4d1d-b918-23acab3d9d18
+      clientSecret: 2f76e5ca-fed9-411b-ac8c-118c58fa4047
+      accessTokenUri: https://captivateprime.adobe.com/oauth/token
+      userAuthorizationUri: https://captivateprime.adobe.com/oauth/o/authorize
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      scope: learner:read
+    resource:
+      #userInfoUri: http://10.18.38.234:8080/ #wifi
+      userInfoUri: http://localhost:8080/ #mine
+      #userInfoUri: http://10.18.24.99:8080   #MR01 
+#      userInfoUri: http://10.18.15.23:8080/ #MR01
+#       userInfoUri: http://localhost:8080/ #mine

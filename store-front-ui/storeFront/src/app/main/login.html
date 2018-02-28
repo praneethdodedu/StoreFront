@@ -1,0 +1,59 @@
+<div class="container-fluid regstPage">
+  <!-- <img src="assets/images/login-bckgrd-img1.jpg"> -->
+  <form name="userForm" class="SignInUp" init="organizationList()">
+    <div type="pills" class="regsterTab">
+      <div class="signUpHeading">
+        <h2>Sign Up</h2>
+      </div>
+      <div class="signUpForm">
+        <div class="rgstrInput">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+            <input class="form-control" type="text" placeholder="Email address" name="email" ng-model="user.email">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user-o fa-fw"></i></span>
+            <input class="form-control" type="text" placeholder="Username" name="username" ng-model="user.username">
+          </div>
+          <div>
+            <select class="form-control" ng-model="user.accountId">
+              <option value="{{org.accountId}}" ng-repeat="org in getAllAccounts" >{{org.accountName}}</option>
+            </select>
+          </div>
+          <button class="signBtn" type="submit" ng-click="registerLogUp()">SIGN UP</button>
+        </div>
+        <div class="loginMessage">
+          <div class="signUpdividr"></div>
+          <div class="loginMsgDiv">If already signed up then</div>
+          <button class="signBtn" type="submit" ng-click="loginUrl()">Login Here</button>        
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+<!-- <div class="container">
+  <div class="col-md-8 wrapper">
+    <div class="col-md-10">
+      <span class="loginWord">Login</span>
+      <img src="assets/images/login.png" class="loginImg">
+    </div>
+    <form ng-submit="formSubmit()" class="form">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="username" placeholder="username" required=""/>
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" ng-model="password" placeholder="password" required=""/>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success">Login</button>
+          <span class="text-danger">{{ error }}</span>
+        </div>
+      </div>
+    </form>
+  </div>
+</div> -->

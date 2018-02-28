@@ -1,0 +1,129 @@
+[
+    {
+        "catalogId": 34413,
+        "catalogName": "Prime Management ",
+        "state": "Enabled",
+        "description": "",
+        "dateCreated": 1496690481000,
+        "dateUpdated": 1496735007000,
+        "courses": [
+            {
+                "courseId": 485390,
+                "courseName": "Authoring in Prime",
+                "courseDescription": "Learn to perform the tasks of an Author in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Author's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more. Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "isPublished": true,
+                "module": [
+                    {
+                        "moduleId": 897128,
+                        "type": "module",
+                        "description": "Learn all about the Author's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an author in Prime. Learn to create course modules, build courses, integrate live face to face and virtual classrooms and more.  Learn to align your courses with skills and how to publish and retire courses. Virtually all aspects of Prime authoring are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Author Overview",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897129,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Authors. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Authoring Assessment",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485391,
+                "courseName": "Learning in Prime",
+                "courseDescription": "Learn about the experience and opportunities of learning in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Learner's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "isPublished": true,
+                "module": [
+                    {
+                        "moduleId": 897130,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Learners. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Assessment",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897131,
+                        "type": "module",
+                        "description": "Learn all about the Learner's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an learner in Prime. Learn to use the single universal Fluidic player to access all of your course materials in one place. Discover how to browse the catalog for courses that interest you or provide you opportunities to upskill. Learn to master every aspect of badges and gamification to take your rightful place on the leaderboard. Virtually all aspects of Prime Learning are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Learner Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485394,
+                "courseName": "Managing in Prime",
+                "courseDescription": "Learn to perform the tasks of a Manager in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Manager's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "isPublished": true,
+                "module": [
+                    {
+                        "moduleId": 897141,
+                        "type": "module",
+                        "description": "Learn all about the Manager's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as a manager in Prime. Learn to read reports and approve requests from your direct reports.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Manager Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            },
+            {
+                "courseId": 485395,
+                "courseName": "Administration in Prime",
+                "courseDescription": "Learn to perform the tasks of an Administrator in Adobe Captivate Prime",
+                "courseOverview": "Learn all about the Administrator's role in Adobe Captivate Prime. This course provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                "courseState": "Published",
+                "coursetype": "ELEARNING",
+                "enrollmentType": "Self Enroll",
+                "dateCreated": 1496668938000,
+                "dateUpdated": 1496668938000,
+                "isPublished": true,
+                "module": [
+                    {
+                        "moduleId": 897127,
+                        "type": "module",
+                        "description": "A short quiz designed to evaluate your comprehension of the basic concepts in Adobe Captivate Prime for Administrators. Don't worry if you're not a pro yet, you can explore / retry questions as often as you like.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Administration Assessment",
+                        "dateUpdated": 1496668938000
+                    },
+                    {
+                        "moduleId": 897142,
+                        "type": "module",
+                        "description": "Learn all about the Administrator's role in Adobe Captivate Prime. This video provides a detailed introduction to all of the major concepts involved in acting as an administrator in Prime. Learn to import users, set up your account, work with badges and gamification. Virtually all aspects of Prime administration are covered.",
+                        "moduleType": "ELEARNING",
+                        "title": "Prime Administration Overview",
+                        "dateUpdated": 1496668938000
+                    }
+                ],
+                "author": null
+            }
+        ],
+        "default": false
+    }
+]

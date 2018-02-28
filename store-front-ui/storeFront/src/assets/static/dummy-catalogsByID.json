@@ -1,0 +1,44 @@
+{
+    "catalogId": 34381,
+    "catalogName": "Big Data Analysis Catalogue",
+    "state": "Enabled",
+    "description": "big data analysis",
+    "dateCreated": 1496669072000,
+    "dateUpdated": 1496670559000,
+    "courses": [
+        {
+            "courseId": 485401,
+            "courseName": "Big Data Analysis",
+            "courseDescription": null,
+            "courseOverview": null,
+            "courseState": "Published",
+            "coursetype": "ELEARNING",
+            "enrollmentType": "Self Enroll",
+            "dateCreated": 1496670145000,
+            "dateUpdated": 1496670230000,
+            "isPublished": true,
+            "module": [
+                {
+                    "moduleId": 897158,
+                    "type": "module",
+                    "description": "What is Big Data Analysis",
+                    "moduleType": "ELEARNING",
+                    "title": "Big Data Analysis",
+                    "dateUpdated": 1496670149000
+                }
+            ],
+            "author": {
+                "userId": 1310769,
+                "userName": "Chandra Ch",
+                "email": "chandrasekhar003@gmail.com",
+                "type": "user",
+                "profile": "admin",
+                "state": "ACTIVE",
+                "userType": "Internal",
+                "avatarUrl": "https://cpcontents.adobe.com/protected/account/32251/accountassets/32251/userassets/1310769/1499749782543_31sheldon.1901.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImMzNDBmMzMxLTg0NTMtNDlkNy1iYWJmLWVhMWYwMDFhNDU1YSIsInYiOiIxIiwiZXhwIjoxNTAyMjYzMDY1LCJyaWQiOiI1NjI5IiwiaWF0IjoxNTAxNjU4MjY1LCJjaWQiOiIxNTkifQ.sZQOt5NudzyVCDvkRFvdOc7kAzs2HTMpEI5XWeySd-g",
+                "manager": null
+            }
+        }
+    ],
+    "default": false
+}

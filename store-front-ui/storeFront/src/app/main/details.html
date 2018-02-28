@@ -1,0 +1,270 @@
+<div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+
+     <div class="item active carouselImage">
+       <img src="assets/images/bannerImage2.jfif" alt="Los Angeles" style="width:100%;" class="bannerImag">
+       <div class="carousel-caption">
+         <h3>{{getCourseByID.courseName}}</h3>
+         <p>{{getCourseByID.courseDescription}}</p>
+         <div class="row detailEnroll">
+           <div ng-click="enrollCourse(getCourseByID.courseId)">
+             <button type="button" class="btn btn-default carouselBtn col-md-2" ng-if="getCourseByID.coursePublish.amount && !getCourseByID.enrolled">Enroll for ${{getCourseByID.coursePublish.amount}}</button>
+             <button type="button" class="btn btn-default carouselBtn col-md-2" ng-if="!getCourseByID.coursePublish.amount">Enroll for $---</button>
+             <button type="button" class="btn btn-default carouselBtn col-md-2" ng-if="getCourseByID.enrolled" ng-click="initiatePayment(getCourseByID.courseId, getCourseByID.coursePublish.amount)">Start</button>
+           </div>
+           <div class="detailCourseIconSpace">
+             <span class="bookMarkIcon" ng-if="getCourseByID.bookMarked!=true"><i class="fa fa-bookmark-o"></i></span>
+             <span class="bookMarkIcon" ng-if="getCourseByID.bookMarked==true"><i class="fa fa-bookmark"></i></span>
+           </div>
+           <!-- <span class="carouselIcon settingCIcon col-md-1" title="Bookmark">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span> -->
+         </div>
+         <!-- <div class="dropdown">
+              <button class="btn navBtnCustm dropdown-toggle" type="button" data-toggle="dropdown">CATALOGS</button>
+              <div class="dropdown-menu libUl catalogLib row">
+                  <div class="dropdown-submenu col-md-6">
+                      <div class="col-md-4 paymentType">
+                          <input type="radio" id="paid" value="paid" name="payment" ng-model="course.selected" />
+                          <label>Paid</label>
+                      </div>
+                      <div class="col-md-4 paymentType">
+                          <input type="radio" id="trial" value="trial" name="trial" ng-model="course.selected" />
+                          <label>Trial</label>
+                      </div>
+                      <div class="col-md-4 paymentType dropdown">
+                          <input type="radio" id="free" value="free" name="free" ng-model="course.selected" />
+                          <label>Free</label>
+                      </div>
+                      <div class="settingBox col-md-12 form-group" id="paidDiv">
+                          <label>Set Price</label>
+                          <input class="settingLi" type="text" name="price" value="" ng-model="course.price">
+                          <input class="settingLi" type="submit" value="Save">
+                      </div>
+                      <div class="settingBox col-md-12 form-group" id="trialdDiv">
+                          <label>Trial Days</label>
+                          <input class="settingLi" type="text" name="days" value="" ng-model="course.days">
+                          <label>Set Price After Trial</label>
+                          <input class="settingLi" type="text" name="price" value="" ng-model="course.price">
+                          <input type="submit" value="Save">
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+
+         <!-- <div class="row">
+           <button type="button" class="btn btn-default carouselBtn col-md-2">Config</button>
+           <span class="carouselIcon settingCIcon col-md-1">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span>
+         </div> -->
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="container-fluid detail-container">
+   <div class="row">
+     <div class="col-md-12">
+       <div class="col-md-9 detailViewTabset">
+         <uib-tabset type="pills" class="nav navbar-nav detailViewNav detailsNav">
+            <uib-tab heading="Overview">{{getCourseByID.courseOverview || "no data available"}}</uib-tab>
+            <uib-tab heading="Modules" classes="btn-sm">
+              <div>
+                <!-- <div class="moduleSection">List of modules:</div> -->
+                <div class="moduleViewStyle" ng-show="!getModule.length">
+                  <p class="moduleTitle linkableTitle">No data available</p>
+                </div>
+                <div class="moduleViewStyle" ng-repeat="module in getModule track by $index">
+                  <p class="moduleTitle" ng-click="descriptionSlide = !descriptionSlide">{{module.title}}</p>
+                  <p class="descriptionDetails" ng-show="descriptionSlide">{{module.description}}</p>
+                  <p class="descriptionDetails" ng-init="fluidicPlyrOpener(module.moduleId, getCourseByID.courseId)">
+                    <a style="color:#52BE80;" href="javascript:void(0)" ng-click="fludicUrl(getFluidicURL.data)" target="_blank">View this module <i class="fa fa-external-link"></i></a>
+                  </p>
+                  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" ng-click="fluidicPlyrOpener(module.moduleId, getCourseByID.courseId)">View the course</button> -->
+                  <!-- <a style="color:blue;" href="https://captivateprime.adobe.com/app/player?lo_id=course:504068&module_id=course:504068_528617_938062_0&access_token=151b2006b0513d87be4704479145ee7c">View the course</a> -->
+                  <!-- <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>This is a large modal.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="modal-bg" class="descriptionDetails">
+                     <div class="dialog">
+                        <button focus-index="1" class="btn btn-primary" data-toggle="modal" focus-element="autofocus" data-target=".bs-example-modal-lg">Click to view the course</button>
+                        <div class="modal fade bs-example-modal-lg"  focus-group focus-group-head="loop" focus-group-tail="loop" focus-stacktabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                   hello
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <p class="descriptionDetails" ng-show="descriptionSlide">
+                    <a style="color:blue;" href="https://captivateprime.adobe.com/app/player?lo_id=course:504068&module_id=course:504068_528617_938062_0&access_token=151b2006b0513d87be4704479145ee7c">View the course</a>
+                  </p> -->
+                </div>
+              </div>
+            </uib-tab>
+            <uib-tab heading="Notes">No Data Available</uib-tab>
+            <uib-tab heading="Suggested">No Data Available</uib-tab>
+          </uib-tabset>
+       </div>
+       <div class="col-md-3 detailViewRatings">
+         <div class="col-md-12 detailScheduleLayout">
+            <div class="detailTime">
+              <!-- <img src="assets/images/timeIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-hourglass-o fa-fw " aria-hidden="true"></i></span>
+              <span class="detailRating"> --- </span>
+            </div>
+            <div class="detailTime">
+              <!-- <img src="assets/images/levelIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-align-left fa-fw fa-rotate-270" aria-hidden="true"></i></span>
+              <span class="detailRating"> --- </span>
+            </div>
+            <div class="detailTime">
+              <!-- <img src="assets/images/priceIcon.png" alt="userImage image"> -->
+              <span class="detailScheduleSpan"><i class="fa fa-usd fa-fw" aria-hidden="true"></i></span>
+              <span class="detailRating" ng-if="getCourseByID.coursePublish.amount">{{getCourseByID.coursePublish.amount}}</span>
+              <span class="detailRating" ng-if="!getCourseByID.coursePublish.amount">---</span>
+            </div>
+         </div>
+         <div class="col-md-12 InstructorDetailView">
+           <div class="courseAuthorStyle">Instructor</div>
+           <div class="row">
+             <div class="col-md-4 authorImage">
+               <!-- <img src="assets/images/user-image1.png" alt="userImage image"> -->
+              <div class="imageIcon">
+                <img ng-if="!getAuthor.avatarUrl" src="assets/images/dummy-user-image.png" alt="userImage image">
+                <img ng-src="{{getAuthor.avatarUrl}}" alt="userImage image">
+              </div>
+             </div>
+             <div class="col-md-8 authorName">
+               <!-- <span class="userName">Jozeph Forakis</span> -->
+               <span class="userName">{{getAuthor.userName}}</span>
+             </div>
+             <div class="col-md-11 authorDesc">
+               <!-- <p>{{getAuthor.userName}}</p> -->
+               <p>The AngularJS framework works by first reading the HTML page,
+                 which has embedded into it additional custom tag attributes.
+               </p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-12 RatingDetailView">
+           <div class="avgRateHeader">Average Rating</div>
+           <div class="row ratings">
+             <div class="col-md-4 ratingNumber">
+               <span>_._</span>
+             </div>
+             <div class="col-md-4 ratingStar">
+               <span class="rating-star">
+                 <!-- <i class="fa fa-star fa-fw" aria-hidden="true"></i> -->
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+                 <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+               </span>
+             </div>
+             <div class="col-md-4 ratingCount">
+               <span>(--)</span>
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <div class="container-fluid learning-view">
+    <div class="row">
+      <div>
+        <h4 class="otherCourse">RELATED COURSES</h4>
+        <div class="col-md-12 slide-images">
+          <div class="col-md-2 arrow-width rating-arrow-left">
+            <img class="" src="assets/images/left-arrow-end.png" alt="left-arrow image">
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg2.jpg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg2.jpg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg2.jpg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 courseWidth">
+            <img class="learningImage" src="assets/images/courseImg2.jpg" alt="Generic placeholder image">
+            <p class="courseFonts">Getting Started with Android Material Design</p>
+            <div class="rating-star">
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-star-o fa-fw" aria-hidden="true"></i>
+            </div>
+            <span class="rating-style courseFonts"><i class="fa fa-hourglass-o fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-align-left fa-rotate-270 fa-fw" aria-hidden="true"></i>--</span>
+            <span class="rating-style courseFonts"><i class="fa fa-usd fa-fw" aria-hidden="true"></i>--</span>
+          </div>
+          <div class="col-md-2 arrow-width rating-arrow-right">
+            <img class="" src="assets/images/right-arrow-end.png" alt="right-arrow image">
+          </div>
+        </div>
+      </div>
+      <div class="dotted-slide">...</div>
+    </div>
+  </div>
+
+</div>

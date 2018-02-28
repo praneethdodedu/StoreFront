@@ -1,0 +1,45 @@
+<div ng-init="myCourses()">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+
+     <div class="item active carouselImage">
+       <img src="assets/images/bannerImage7.jpeg" alt="Los Angeles" style="width:100%;" class="bannerImag">
+       <div class="carousel-caption">
+         <h3>My Courses</h3>
+         <div>
+           <button type="button" class="btn btn-default carouselBtn">Enroll for $--</button>
+           <span class="carouselIcon">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span>
+           <span class="carouselIcon">
+             <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>
+           </span>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="container-fluid detail-container">
+   <div class="row">
+     <div class="col-md-12">
+       <div class="col-md-12 lpViewTabset">
+         <uib-tabset type="pills" class="nav navbar-nav detailViewNav detailsNav">
+            <uib-tab heading="My Courses" classes="btn-sm">
+              <div>
+                <!-- <div class="moduleSection">List of Learning Programs:</div> -->
+                <div class="moduleViewStyle" ng-show="!getMyCourses.length">
+                  <p class="moduleTitle linkableTitle">No data available</p>
+                </div>
+                <div class="moduleViewStyle"ng-repeat="mycourse in getMyCourses track by $index" ng-click="myCourseUrl(mycourse)">
+                  <p class="moduleTitle linkableTitle">{{mycourse.name}} </p>
+                </div>
+              </div>
+            </uib-tab>
+          </uib-tabset>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>

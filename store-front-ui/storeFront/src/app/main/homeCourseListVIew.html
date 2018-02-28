@@ -1,0 +1,210 @@
+<div class="container-fluid courses-container">
+    <div class="custom-courses">
+        <div class="row">
+            <div class="col-md-12">
+                <uib-tabset type="pills" class="nav navbar-nav detailViewNav mainNav">
+                    <uib-tab heading="All Courses">
+                        <div class="row courses-row" ng-repeat="course in getAllCourses track by $index" ng-if="statusCode==200">
+                            <div class="col-md-12 content-divider"></div>
+                            <div class="col-md-10">
+                                <div class="col-md-3">
+                                    <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                                </div>
+                                <div class="col-md-7 courseContent-details">
+                                    <div class="col-md-12 content-courses">
+                                        <h5 class="linkableTitle titleStyle" ui-sref="details({id: course.courseId})">{{course.courseName}}</h5>
+                                        <p class="content-custom">{{course.courseDescription}}</p>
+                                    </div>
+                                    <div class="col-md-12 content-courses">
+                                        <div class="col-md-6 content-courses">
+                                            <div class="col-md-3 content-courses authorImage">
+                                              <div class="imageIcon">
+                                                <img ng-if="!course.author.avatarUrl" src="assets/images/dummy-user-image.png" alt="userImage image">
+                                                <img ng-if="course.author.avatarUrl" ng-src="{{course.author.avatarUrl}}" alt="userImage image">
+                                              </div>
+                                            </div>
+                                            <div class="col-md-9 content-courses">
+                                                <p class="userHeader">Instructor</p>
+                                                <p class="userName">{{course.author.userName}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="userHeaderRating">Average Rating</div>
+                                            <div class="rating">
+                                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                              <!-- <span>(--)</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="col-md-12">
+                                        <div class="mainTime" title="Duration">
+                                            <!-- <img src="assets/images/timeIcon.png" alt="userImage image"> -->
+                                            <span class="fixesScheduleIcon"><i class="fa fa-hourglass-o fa-fw " aria-hidden="true"></i></span>
+                                            <span class="detailRating"> --- </span>
+                                        </div>
+                                        <div class="mainTime" title="Level">
+                                            <!-- <img src="assets/images/levelIcon.png" alt="userImage image"> -->
+                                            <span class="fixesScheduleIcon"><i class="fa fa-align-left fa-fw fa-rotate-270" aria-hidden="true"></i></span>
+                                            <span class="detailRating"> --- </span>
+                                        </div>
+                                        <div class="mainTime" title="Price">
+                                            <!-- <img src="assets/images/priceIcon.png" alt="userImage image"> -->
+                                            <span class="fixesScheduleIcon"><i class="fa fa-usd fa-fw" aria-hidden="true"></i></span>
+                                            <span class="detailRating" ng-if="course.coursePublish.amount">{{course.coursePublish.amount}}</span>
+                                            <span class="detailRating" ng-if="!course.coursePublish.amount">----</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div title="Add to Playlist" class="iconDivSpace">
+                                  <!-- <img src="assets/images/add-Playlst_icon.png" alt="addToPlaylist image"> -->
+                                  <!-- <span class="bookMarkIcon"><i class="fa fa-bars fa-plus"></i></span> -->
+                                  <span class="playlistIcon"><img src="assets/images/add-Playlst_icon.png" alt="addToPlaylist image"></span>
+                              </div>
+                              <div title="Bookmark" class="iconDivSpace" ng-click="bookMarkCourses(course.courseId)">
+                                  <span class="bookMarkIcon" ng-if="course.bookMarked!=true"><i class="fa fa-bookmark-o"></i></span>
+                                  <!-- <img src="assets/images/bookmark.png" alt="bookmark image" ng-if="course.bookMarked!=true"> -->
+                                  <span class="bookMarkIcon" ng-if="course.bookMarked==true"><i class="fa fa-bookmark"></i></span>
+                              </div>
+                              <div title="Similar Courses" class="iconDivSpace">
+                                  <!-- <img src="assets/images/similar-type.png" alt="similarType image"> -->
+                                  <span class="simlrCourseIcon"><i class="fa fa-clone"></i></span>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row courses-row" ng-repeat="course in getPreviewCoursesList track by $index" ng-if="statusCode!=200">
+                            <div class="col-md-12 content-divider"></div>
+                            <div class="col-md-10">
+                                <div class="col-md-3">
+                                    <img class="learningImage" src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                                </div>
+                                <div class="col-md-7 courseContent-details">
+                                    <div class="col-md-12 content-courses">
+                                        <h5 class="linkableTitle titleStyle" ui-sref="details({id: course.courseId})">{{course.courseName}}</h5>
+                                        <p class="content-custom">{{course.courseDescription}}</p>
+                                    </div>
+                                    <div class="col-md-12 content-courses">
+                                        <div class="col-md-6 content-courses">
+                                            <div class="col-md-3 content-courses authorImage">
+                                              <div class="imageIcon">
+                                                <img ng-if="!course.author.avatarUrl" src="assets/images/dummy-user-image.png" alt="userImage image">
+                                                <img ng-if="course.author.avatarUrl" ng-src="{{course.author.avatarUrl}}" alt="userImage image">
+                                              </div>
+                                            </div>
+                                            <div class="col-md-9 content-courses">
+                                                <p class="userHeader">Instructor</p>
+                                                <p class="userName">{{course.author.userName}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="userHeaderRating">Average Rating</div>
+                                            <!-- <span class="ratingSize"></span> -->
+                                            <!-- <i class="fa fa-star fa-fw rating-star" aria-hidden="true"></i> -->
+                                            <!-- <i class="fa fa-star-o fa-fw rating-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o fa-fw rating-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o fa-fw rating-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o fa-fw rating-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o fa-fw rating-star" aria-hidden="true"></i> -->
+                                            <div class="rating">
+                                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                              <!-- <span>(--)</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="col-md-12">
+                                        <div class="mainTime" title="Duration">
+                                            <!-- <img src="assets/images/timeIcon.png" alt="userImage image"> -->
+                                            <span class="detailScheduleSpan"><i class="fa fa-hourglass-o fa-fw " aria-hidden="true"></i></span>
+                                            <span class="detailRating"> --- </span>
+                                        </div>
+                                        <div class="mainTime" title="Level">
+                                            <!-- <img src="assets/images/levelIcon.png" alt="userImage image"> -->
+                                            <span class="detailScheduleSpan"><i class="fa fa-align-left fa-fw fa-rotate-270" aria-hidden="true"></i></span>
+                                            <span class="detailRating"> --- </span>
+                                        </div>
+                                        <div class="mainTime" title="Price">
+                                            <!-- <img src="assets/images/priceIcon.png" alt="userImage image"> -->
+                                            <span class="detailScheduleSpan"><i class="fa fa-usd fa-fw" aria-hidden="true"></i></span>
+                                            <span class="detailRating" ng-if="course.coursePublish.amount">{{course.coursePublish.amount}}</span>
+                                            <span class="detailRating" ng-if="!course.coursePublish.amount">----</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div title="Add to Playlist">
+                                  <img src="assets/images/add-to-playlist.png" alt="addToPlaylist image">
+                              </div>
+                              <div title="Bookmark">
+                                  <img src="assets/images/bookmark.png" alt="bookmark image">
+                              </div>
+                              <div title="Similar Courses">
+                                  <img src="assets/images/similar-type.png" alt="similarType image">
+                              </div>
+                            </div>
+                        </div>
+                    </uib-tab>
+                    <uib-tab heading="Trending Courses">
+                      <div class="row courses-row">
+                        <p>NO DATA AVAILABLE</p>
+                          <!-- <div class="col-md-12">
+                              <div class="col-md-3">
+                                  <img src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                              </div>
+                              <div class="col-md-7 courseContent-details">
+                                  <div class="col-md-12 content-courses">
+                                      <h5 class="linkableTitle titleStyle" ui-sref="details({id: mycourse.id})">{{mycourse.name}}</h5>
+                                      <p class="content-custom">Type: {{mycourse.type}}</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 content-divider"></div> -->
+                      </div>
+                    </uib-tab>
+                    <uib-tab heading="Recommended Courses">
+                      <div class="row courses-row">
+                        <p>NO DATA AVAILABLE</p>
+                          <!-- <div class="col-md-12">
+                              <div class="col-md-3">
+                                  <img src="assets/images/courseImg1.jpeg" alt="courseImage image">
+                              </div>
+                              <div class="col-md-7 courseContent-details">
+                                  <div class="col-md-12 content-courses">
+                                      <h5 class="linkableTitle titleStyle" ui-sref="details({id: mycourse.id})">{{mycourse.name}}</h5>
+                                      <p class="content-custom">Type: {{mycourse.type}}</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 content-divider"></div> -->
+                      </div>
+                    </uib-tab>
+                    <uib-tab class="pull-right">
+                        <uib-tab-heading>
+                            <a><i class="fa fa-th-list fa-fw" aria-hidden="true"></i></a>
+                        </uib-tab-heading>
+                    </uib-tab>
+                    <uib-tab class="pull-right">
+                        <uib-tab-heading>
+                            <a><i class="fa fa-th-large fa-fw" aria-hidden="true"></i></a>
+                        </uib-tab-heading>
+                    </uib-tab>
+                    <uib-tab class="pull-right">
+                        <uib-tab-heading>
+                            <a><i class="fa fa-align-left fa-fw" aria-hidden="true"></i></a>
+                        </uib-tab-heading>
+                    </uib-tab>
+                    <uib-tab class="pull-right">
+                        <uib-tab-heading>
+                            <a><i class="fa fa-align-right fa-fw" aria-hidden="true"></i></a>
+                        </uib-tab-heading>
+                    </uib-tab>
+                </uib-tabset>
+            </div>
+        </div>
+    </div>
+</div>
